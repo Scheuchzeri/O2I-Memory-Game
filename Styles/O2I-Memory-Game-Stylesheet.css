@@ -83,7 +83,7 @@ h1 {
 
 .card {
   aspect-ratio: 1;
-  border: 2px solid #AF8D1E;
+  border: 2px solid #1e40af;
   background-color: #e3e8ff;
   display: flex;
   align-items: center;
@@ -113,7 +113,6 @@ h1 {
 
 .card.matched {
   background-color: white;
-  border: 
   cursor: default;
   opacity: 0.7;
 }
