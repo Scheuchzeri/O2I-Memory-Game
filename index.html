@@ -5,10 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>A Fun O2I Memory Game!</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Styles/O2I-Memory-Game-Stylesheet.css" />
   </head>
   <body>
     <h1>Your Fun O2I Memory Game!</h1>
-    <script src="index.js"></script>
+    <div class="game-container">
+      <div class="start-section">
+        <button class="start-btn" onclick="startGame()">Start!</button>
+      </div>
+
+      <div class="scoreboard" id="scoreboard">
+        <div class="player active" id="player1">
+          Player 1: <span id="score1">0</span>
+        </div>
+        <div class="player" id="player2">
+          Player 2: <span id="score2">0</span>
+        </div>
+      </div>
+
+      <div class="game-board" id="gameBoard"></div>
+
+      <div class="game-message" id="gameMessage"></div>
+    </div>
+    <script src="Scripts/O2I-Memory-Game-Scripts.js"></script>
   </body>
 </html>
